@@ -54,7 +54,7 @@ app.layout = html.Div(
     children=[
         html.Br(),
         html.Img(
-            src="https://github.com/theperk08/Enedis_dash/blob/5930b9a2b6baa7eee50516756d95137843d3058f/assets/logo_enedis.PNG",
+            src="assets/logo_enedis.PNG",
             style={'height': '200px'}
         ),
         html.Br(),
