@@ -41,6 +41,7 @@ model.fit(X_train_scaled, y_train)
 
 # Create the Dash application
 app = dash.Dash(__name__)
+server = app.server
 
 # Define the application layout
 app.layout = html.Div(
